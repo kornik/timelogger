@@ -1,0 +1,7 @@
+urls:
+  -
+    url: "http://wp.pl"
+    delay: 60
+  -
+    url: "http://o2.pl"
+    delay: 180
