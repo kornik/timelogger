@@ -6,3 +6,9 @@ Listę adresów url należy zaczytać z pliku konfiguracyjnego yml (config.yml),
 Dane należy zapisać w wybranej przez siebie bazie danych.
 
 Aplikacja powinna również wystawiać api, dzięki któremu będziemy mogli odczytać zapisane wyniki w formacie json.
+
+Zależności:
+- Flask
+- Flask-restful
+- Mongoengine
+- MongoDB
