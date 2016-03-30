@@ -59,8 +59,9 @@ class TimeLogger(Resource):
         return output
 
 
-api.add_resource(TimeLogger, '/')
+api.add_resource(TimeLogger, '/api/timelogger')
 
 
 if __name__ == '__main__':
     app.run('0.0.0.0', 8080)
+    print("Time logger data url: /api/timelogger")
